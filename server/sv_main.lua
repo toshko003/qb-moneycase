@@ -21,6 +21,11 @@ QBCore.Functions.CreateCallback('moneycase:addMoneyToCase', function (source, cb
         return
     end
 
+    if player.PlayerData.money.cash - amount < 0 then
+        TriggerClientEvent('QBCore:Notify', source, Lang:t("notify.playerNotEnoughMoney"), 'error')
+        return
+    end
+
     player.PlayerData.items[moneyCase.slot].info.money += amount
     player.Functions.SetInventory(player.PlayerData.items)
 

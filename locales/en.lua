@@ -14,6 +14,7 @@ local Translations = {
         ['successWithdraw'] = 'Successfully withdrew $%{money} from the moneycase',
         ['caseFull'] = 'The moneycase is full',
         ['caseNotEnoughMoney'] = 'The moneycase does not have enough money',
+        ['playerNotEnoughMoney'] = 'You don\'t have enough money',
     }
 }
 

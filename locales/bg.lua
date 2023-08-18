@@ -14,6 +14,7 @@ local Translations = {
         ['successWithdraw'] = 'Успешно взехте $%{money} от куфара',
         ['caseFull'] = 'Куфарът е пълен',
         ['caseNotEnoughMoney'] = 'Куфарът няма толкова пари',
+        ['playerNotEnoughMoney'] = 'Нямате толкова пари',
     }
 }
 
